@@ -53,6 +53,7 @@ Aleksander Simonic, the author of the WinEdt shell.
 #- source
 %doc %{_texmfdistdir}/source/latex/srcltx/srcltx.dtx
 %doc %{_texmfdistdir}/source/latex/srcltx/srcltx.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ Aleksander Simonic, the author of the WinEdt shell.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
