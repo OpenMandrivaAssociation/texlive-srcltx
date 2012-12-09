@@ -53,3 +53,17 @@ Aleksander Simonic, the author of the WinEdt shell.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.6-2
++ Revision: 756163
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.6-1
++ Revision: 719573
+- texlive-srcltx
+- texlive-srcltx
+- texlive-srcltx
+- texlive-srcltx
+
