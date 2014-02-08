@@ -6,7 +6,7 @@
 # catalog-version 1.6
 Name:		texlive-srcltx
 Version:	1.6
-Release:	2
+Release:	3
 Summary:	Jump between DVI and TeX files
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/srcltx
