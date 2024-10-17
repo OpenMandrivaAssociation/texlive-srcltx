@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Jump between DVI and TeX files
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/srcltx
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/srcltx
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srcltx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/srcltx.doc.r%{version}.tar.xz
